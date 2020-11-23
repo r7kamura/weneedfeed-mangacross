@@ -1,0 +1,503 @@
+selectors: &selectors
+  item_selector: //episode[status[contains(text(), "public")]]
+  item_description_selector: title
+  item_link_selector: page_url
+  item_time_selector: member_publish_start
+  item_title_selector: volume
+
+pages:
+  - id: ai
+    description: "1話完結ヒューマノイド・オムニバス"
+    title: "AIの遺電子"
+    url: https://mangacross.jp/api/comics/ai.json?type=public
+    <<: *selectors
+  - id: akabane
+    description: "美人派遣OLの正体は忍者!?"
+    title: "ハケンの忍者アカバネ"
+    url: https://mangacross.jp/api/comics/akabane.json?type=public
+    <<: *selectors
+  - id: aomori
+    description: "他には無い青森グルメまんが！"
+    title: "津軽先輩の青森めじゃ飯！"
+    url: https://mangacross.jp/api/comics/aomori.json?type=public
+    <<: *selectors
+  - id: aonoshima
+    description: "風ふきぬける爽快癒し漫画‼"
+    title: "青の島とねこ一匹"
+    url: https://mangacross.jp/api/comics/aonoshima.json?type=public
+    <<: *selectors
+  - id: asukubi
+    description: "クズサラリーマンあるあるGAG！"
+    title: "明日クビになりそう"
+    url: https://mangacross.jp/api/comics/asukubi.json?type=public
+    <<: *selectors
+  - id: ateuma
+    description: "当て馬百合ラブコメ!!"
+    title: "当て馬カノジョ"
+    url: https://mangacross.jp/api/comics/ateuma.json?type=public
+    <<: *selectors
+  - id: awadol
+    description: "徳島、むちゃ好きなんじょ♡"
+    title: "あわドルぐらし"
+    url: https://mangacross.jp/api/comics/awadol.json?type=public
+    <<: *selectors
+  - id: bakeneko
+    description: "JSとJKと、時々化けネコ。"
+    title: "化けネコ葉月の姉妹事情"
+    url: https://mangacross.jp/api/comics/bakeneko.json?type=public
+    <<: *selectors
+  - id: beastars
+    description: "狼レゴシの動物群像劇!!"
+    title: "BEASTARS"
+    url: https://mangacross.jp/api/comics/beastars.json?type=public
+    <<: *selectors
+  - id: berlin
+    description: "パルプンテ系無秩序４コマ!!"
+    title: "ベルリンは鐘"
+    url: https://mangacross.jp/api/comics/berlin.json?type=public
+    <<: *selectors
+  - id: bon
+    description: "超不良破天荒一代記!!"
+    title: "潮騒の凡"
+    url: https://mangacross.jp/api/comics/bon.json?type=public
+    <<: *selectors
+  - id: caesar
+    description: "歴史改変ローマン・ギャグ‼︎"
+    title: "英雄！シーザーさん"
+    url: https://mangacross.jp/api/comics/caesar.json?type=public
+    <<: *selectors
+  - id: chinasan
+    description: "異文化交流中国OL４コマ！"
+    title: "隣のチャイナさん"
+    url: https://mangacross.jp/api/comics/chinasan.json?type=public
+    <<: *selectors
+  - id: cigacherry
+    description: "この先輩…控えめに言って、最高です！"
+    title: "シガレット＆チェリー"
+    url: https://mangacross.jp/api/comics/cigacherry.json?type=public
+    <<: *selectors
+  - id: creature
+    description: "異世界でクリ娘とハーレムしちゃう!?"
+    title: "科学的に存在しうるクリーチャー娘の観察日誌"
+    url: https://mangacross.jp/api/comics/creature.json?type=public
+    <<: *selectors
+  - id: crew
+    description: "元CAが描くCAお仕事まんが！"
+    title: "CREWでございます！"
+    url: https://mangacross.jp/api/comics/crew.json?type=public
+    <<: *selectors
+  - id: crossoverrev
+    description: "伝説のクルマ漫画が、再び！"
+    title: "クロスオーバーレブ！"
+    url: https://mangacross.jp/api/comics/crossoverrev.json?type=public
+    <<: *selectors
+  - id: crows
+    description: "アウトサイダーの怒りと友情!"
+    title: "クローズ"
+    url: https://mangacross.jp/api/comics/crows.json?type=public
+    <<: *selectors
+  - id: czr
+    description: "大ヒット映画を新生コミカライズ!!"
+    title: "クローズZEROリブート"
+    url: https://mangacross.jp/api/comics/czr.json?type=public
+    <<: *selectors
+  - id: daikyochu
+    description: "昆虫パニック漫画、新章突入!!"
+    title: "大巨蟲列島"
+    url: https://mangacross.jp/api/comics/daikyochu.json?type=public
+    <<: *selectors
+  - id: dochokkyu
+    description: "「!!」多めの高血圧ラブコメ"
+    title: "ド直球彼氏×彼女 秋田版"
+    url: https://mangacross.jp/api/comics/dochokkyu.json?type=public
+    <<: *selectors
+  - id: dolphin
+    description: "実話にもとづく横浜暴走族浪漫！"
+    title: "ドルフィン"
+    url: https://mangacross.jp/api/comics/dolphin.json?type=public
+    <<: *selectors
+  - id: dotennen
+    description: "ど天然上司とのお仕事コメディ"
+    title: "新しい上司はど天然"
+    url: https://mangacross.jp/api/comics/dotennen.json?type=public
+    <<: *selectors
+  - id: efu
+    description: "衛府の刃・怨身忍者だ!"
+    title: "衛府の七忍"
+    url: https://mangacross.jp/api/comics/efu.json?type=public
+    <<: *selectors
+  - id: elio
+    description: "歴史逃亡バトル活劇"
+    title: "逃亡者エリオ"
+    url: https://mangacross.jp/api/comics/elio.json?type=public
+    <<: *selectors
+  - id: fukurahagi
+    description: "不器用系オフィスラブコメ!!"
+    title: "恋するふくらはぎ"
+    url: https://mangacross.jp/api/comics/fukurahagi.json?type=public
+    <<: *selectors
+  - id: godtools
+    description: "神にも悪魔にもなれるスマホ!?"
+    title: "神アプリ"
+    url: https://mangacross.jp/api/comics/godtools.json?type=public
+    <<: *selectors
+  - id: grisaia_pt
+    description: "学園美少女バイオレンス!!"
+    title: "グリザイア：ファントムトリガー -世界の果て-"
+    url: https://mangacross.jp/api/comics/grisaia_pt.json?type=public
+    <<: *selectors
+  - id: hakataben
+    description: "方言少女4コマ！"
+    title: "博多弁の女の子はかわいいと思いませんか？"
+    url: https://mangacross.jp/api/comics/hakataben.json?type=public
+    <<: *selectors
+  - id: Harlock
+    description: "スペースパイレーツロマン！！"
+    title: "キャプテンハーロック～アルカディアの記憶～"
+    url: https://mangacross.jp/api/comics/Harlock.json?type=public
+    <<: *selectors
+  - id: hisureba
+    description: "禁じられた姉弟の〈歪んだ純愛〉…!!"
+    title: "秘すれば"
+    url: https://mangacross.jp/api/comics/hisureba.json?type=public
+    <<: *selectors
+  - id: hitomichan
+    description: "三白眼女子の不器用コメディ♪"
+    title: "瞳ちゃんは人見知り"
+    url: https://mangacross.jp/api/comics/hitomichan.json?type=public
+    <<: *selectors
+  - id: hosihime
+    description: "ちょっとHなド田舎ラブコメ♡"
+    title: "星姫村とちょっとオトナのないしょ話"
+    url: https://mangacross.jp/api/comics/hosihime.json?type=public
+    <<: *selectors
+  - id: hotelrip
+    description: "誰もが安らかに眠れるホテルへ。"
+    title: "HOTEL R.I.P."
+    url: https://mangacross.jp/api/comics/hotelrip.json?type=public
+    <<: *selectors
+  - id: ikamusume
+    description: "人類征服コメディー！"
+    title: "侵略！イカ娘"
+    url: https://mangacross.jp/api/comics/ikamusume.json?type=public
+    <<: *selectors
+  - id: ipponagain
+    description: "柔道ガールズ・ダイアリー！"
+    title: "もういっぽん！"
+    url: https://mangacross.jp/api/comics/ipponagain.json?type=public
+    <<: *selectors
+  - id: irumakun
+    description: "魔界学園ファンタジー!!"
+    title: "魔入りました！入間くん"
+    url: https://mangacross.jp/api/comics/irumakun.json?type=public
+    <<: *selectors
+  - id: isekaitoilet
+    description: "転生勇者のトイレコミック!"
+    title: "異世界のトイレで大をする。"
+    url: https://mangacross.jp/api/comics/isekaitoilet.json?type=public
+    <<: *selectors
+  - id: iwaniki
+    description: "神話レベルの”愛”のおはなし。"
+    title: "イワとニキの新婚旅行 ～単行本化記念 特別企画～"
+    url: https://mangacross.jp/api/comics/iwaniki.json?type=public
+    <<: *selectors
+  - id: jewely
+    description: "鉱物命のドS美少年×カフェ店員"
+    title: "宝石王子と鉱物カフェ"
+    url: https://mangacross.jp/api/comics/jewely.json?type=public
+    <<: *selectors
+  - id: kamiinabotan
+    description: "ほのぼの飲酒ガールズコメディ"
+    title: "上伊那ぼたん、酔へる姿は百合の花"
+    url: https://mangacross.jp/api/comics/kamiinabotan.json?type=public
+    <<: *selectors
+  - id: kaneda
+    description: "暴走セレブお嬢様ギャグ!!"
+    title: "マウントセレブ金田さん"
+    url: https://mangacross.jp/api/comics/kaneda.json?type=public
+    <<: *selectors
+  - id: kanmurisan
+    description: "時計店を営むお姉さんの日常"
+    title: "冠さんの時計工房"
+    url: https://mangacross.jp/api/comics/kanmurisan.json?type=public
+    <<: *selectors
+  - id: karaoke
+    description: "ENJOYカラオケまんが！"
+    title: "私の異常なカラオケ愛"
+    url: https://mangacross.jp/api/comics/karaoke.json?type=public
+    <<: *selectors
+  - id: kawaii
+    description: "言わせたい純情ラブコメ♡"
+    title: "かわいい後輩に言わされたい"
+    url: https://mangacross.jp/api/comics/kawaii.json?type=public
+    <<: *selectors
+  - id: kimishina
+    description: "ラセンが奏でる恋物語。"
+    title: "きみを死なせないための物語"
+    url: https://mangacross.jp/api/comics/kimishina.json?type=public
+    <<: *selectors
+  - id: kimochiii
+    description: "気持ちよさを求める実録漫画！"
+    title: "気持ちいい体"
+    url: https://mangacross.jp/api/comics/kimochiii.json?type=public
+    <<: *selectors
+  - id: kokyu
+    description: "後宮で翡翠を待っている者とは!?"
+    title: "後宮デイズ ～七星国物語～"
+    url: https://mangacross.jp/api/comics/kokyu.json?type=public
+    <<: *selectors
+  - id: kujira
+    description: "鮮烈の群像ハイ・ファンタジー！"
+    title: "クジラの子らは砂上に歌う"
+    url: https://mangacross.jp/api/comics/kujira.json?type=public
+    <<: *selectors
+  - id: kyochuretto
+    description: "巨大昆虫パニック!!"
+    title: "巨蟲列島"
+    url: https://mangacross.jp/api/comics/kyochuretto.json?type=public
+    <<: *selectors
+  - id: majosenpai
+    description: "魔女、だけど普通の会社員"
+    title: "魔女先輩日報"
+    url: https://mangacross.jp/api/comics/majosenpai.json?type=public
+    <<: *selectors
+  - id: maounomusume
+    description: "キモチだだ漏れ異世界ラブコメ"
+    title: "魔王の娘、すごくチョロい。"
+    url: https://mangacross.jp/api/comics/maounomusume.json?type=public
+    <<: *selectors
+  - id: mayutan
+    description: "ハートフル子猫コメディ!!"
+    title: "まゆたんのお家"
+    url: https://mangacross.jp/api/comics/mayutan.json?type=public
+    <<: *selectors
+  - id: mental
+    description: "悩む著者の赤裸々エッセイ!!"
+    title: "史群アル仙のメンタルチップス～不安障害とADHDの歩き方～"
+    url: https://mangacross.jp/api/comics/mental.json?type=public
+    <<: *selectors
+  - id: mino
+    description: "可愛く刺激的な日常コメディ！"
+    title: "美乃さんのそれ、さわってもいい？"
+    url: https://mangacross.jp/api/comics/mino.json?type=public
+    <<: *selectors
+  - id: miyu
+    description: "妖しく美しい吸血姫浪漫、再起動。"
+    title: "吸血姫美夕 朔"
+    url: https://mangacross.jp/api/comics/miyu.json?type=public
+    <<: *selectors
+  - id: nadeshiko
+    description: "過激Ｈ(ホーム)コメディ!!"
+    title: "変わりナデシコ～WEB特別版～"
+    url: https://mangacross.jp/api/comics/nadeshiko.json?type=public
+    <<: *selectors
+  - id: nagi
+    description: "大島凪28歳の、人生リセットコメディ!"
+    title: "凪のお暇"
+    url: https://mangacross.jp/api/comics/nagi.json?type=public
+    <<: *selectors
+  - id: ohitsurisama
+    description: "お一人様女子、必釣日誌!!"
+    title: "おひ釣りさま"
+    url: https://mangacross.jp/api/comics/ohitsurisama.json?type=public
+    <<: *selectors
+  - id: onsa
+    description: "業界注目のJKバイクコメディ♥"
+    title: "ばくおん!! ～天野恩紗のニコイチ繁盛記～"
+    url: https://mangacross.jp/api/comics/onsa.json?type=public
+    <<: *selectors
+  - id: orietsu
+    description: "サブキャラ・織津江大志活躍！"
+    title: "織津江大志の異世界クリ娘サバイバル日誌"
+    url: https://mangacross.jp/api/comics/orietsu.json?type=public
+    <<: *selectors
+  - id: oshi
+    description: "オタク男子が恋の応援⁉︎"
+    title: "キミは俺の推しじゃない"
+    url: https://mangacross.jp/api/comics/oshi.json?type=public
+    <<: *selectors
+  - id: poko
+    description: "ポコのゆるかわショート!!"
+    title: "おしえて。ポコ先生"
+    url: https://mangacross.jp/api/comics/poko.json?type=public
+    <<: *selectors
+  - id: princess
+    description: "男子禁制百合コメディ！"
+    title: "お姫様のお姫様"
+    url: https://mangacross.jp/api/comics/princess.json?type=public
+    <<: *selectors
+  - id: radiogirl
+    description: "かわゆい電波をゆる～く発信"
+    title: "佐渡島ときどきラジオガール"
+    url: https://mangacross.jp/api/comics/radiogirl.json?type=public
+    <<: *selectors
+  - id: rc
+    description: "ラジコンカーの魅力満載！！"
+    title: "４０歳からラジコンできるかな？~断言しようラジコンはとてつもなく面白い！~"
+    url: https://mangacross.jp/api/comics/rc.json?type=public
+    <<: *selectors
+  - id: reiri
+    description: "衝撃の本格戦国時代劇、開幕!!"
+    title: "レイリ"
+    url: https://mangacross.jp/api/comics/reiri.json?type=public
+    <<: *selectors
+  - id: renoreno
+    description: "超無理しない、結婚のヒケツ"
+    title: "ネットで会って30分で結婚を決めた話　無理しない婚"
+    url: https://mangacross.jp/api/comics/renoreno.json?type=public
+    <<: *selectors
+  - id: requiem
+    description: "黄金聖闘士たちの激闘録！！"
+    title: "聖闘士星矢EPISODE.Gレクイエム"
+    url: https://mangacross.jp/api/comics/requiem.json?type=public
+    <<: *selectors
+  - id: rokudo
+    description: "悪女ラブパニック!!"
+    title: "六道の悪女たち"
+    url: https://mangacross.jp/api/comics/rokudo.json?type=public
+    <<: *selectors
+  - id: rororro
+    description: "すぐ脱ぐポンコツロボコメ♥"
+    title: "ロロッロ!"
+    url: https://mangacross.jp/api/comics/rororro.json?type=public
+    <<: *selectors
+  - id: saeismsecond
+    description: "束縛サイコサスペンス、新章！"
+    title: "サエイズム Second Season"
+    url: https://mangacross.jp/api/comics/saeismsecond.json?type=public
+    <<: *selectors
+  - id: saintia
+    description: "戦う少女たちの新銀河伝説、開幕!"
+    title: "聖闘士星矢セインティア翔"
+    url: https://mangacross.jp/api/comics/saintia.json?type=public
+    <<: *selectors
+  - id: savedata
+    description: "ゲーム世界ラブコメディ"
+    title: "セーブデータで恋をしてみた"
+    url: https://mangacross.jp/api/comics/savedata.json?type=public
+    <<: *selectors
+  - id: sensei
+    description: "教師と生徒の禁断恋愛"
+    title: "先生、あたし誰にも言いません"
+    url: https://mangacross.jp/api/comics/sensei.json?type=public
+    <<: *selectors
+  - id: sensoh
+    description: "ほろり味の昭和初期グルメ"
+    title: "戦争めし"
+    url: https://mangacross.jp/api/comics/sensoh.json?type=public
+    <<: *selectors
+  - id: sept
+    description: "新魔法少女悲劇譚!!"
+    title: "魔法少女サイトSept"
+    url: https://mangacross.jp/api/comics/sept.json?type=public
+    <<: *selectors
+  - id: setsunaflick
+    description: "恋とAIを描く近未来SF"
+    title: "セツナフリック"
+    url: https://mangacross.jp/api/comics/setsunaflick.json?type=public
+    <<: *selectors
+  - id: shiomai
+    description: "青春群像コメディ"
+    title: "潮が舞い子が舞い"
+    url: https://mangacross.jp/api/comics/shiomai.json?type=public
+    <<: *selectors
+  - id: shy
+    description: "恥ずかしがり屋のヒーロー譚！"
+    title: "SHY"
+    url: https://mangacross.jp/api/comics/shy.json?type=public
+    <<: *selectors
+  - id: smiling
+    description: "二人が起こす奇蹟の夏物語"
+    title: "スマイリング！〜晴れやかなロード〜"
+    url: https://mangacross.jp/api/comics/smiling.json?type=public
+    <<: *selectors
+  - id: speciesdomain
+    description: "青春群像亜人ラブコメ"
+    title: "スピーシーズドメイン"
+    url: https://mangacross.jp/api/comics/speciesdomain.json?type=public
+    <<: *selectors
+  - id: strawberry
+    description: "こじらせ女子のガールズトーク"
+    title: "ストロベリー・ゴー・ラウンド"
+    url: https://mangacross.jp/api/comics/strawberry.json?type=public
+    <<: *selectors
+  - id: takakura
+    description: "不器用だけどカッコいい!?"
+    title: "高倉くんには難しい"
+    url: https://mangacross.jp/api/comics/takakura.json?type=public
+    <<: *selectors
+  - id: tateishi
+    description: "立石の昭和酒場を全制覇！"
+    title: "立石だらり呑み"
+    url: https://mangacross.jp/api/comics/tateishi.json?type=public
+    <<: *selectors
+  - id: toukenranbu
+    description: "刀剣男士の日常たっぷり！"
+    title: "「刀剣乱舞-ONLINE-」トリビュート　ー任務遂行中！ー"
+    url: https://mangacross.jp/api/comics/toukenranbu.json?type=public
+    <<: *selectors
+  - id: toukenranbu2
+    description: "刀剣男士の日常をお届け！"
+    title: "刀剣乱舞-ONLINE-トリビュート -本丸待機中！-"
+    url: https://mangacross.jp/api/comics/toukenranbu2.json?type=public
+    <<: *selectors
+  - id: umigui
+    description: "パニックサバイバル!!"
+    title: "海喰い"
+    url: https://mangacross.jp/api/comics/umigui.json?type=public
+    <<: *selectors
+  - id: umitaro
+    description: "最強ヤンキー、寿司を握る!!"
+    title: "仁義理の海太郎"
+    url: https://mangacross.jp/api/comics/umitaro.json?type=public
+    <<: *selectors
+  - id: usokitsu
+    description: "キツネ娘の純愛コメディー！"
+    title: "うそつきキツネの恋噺"
+    url: https://mangacross.jp/api/comics/usokitsu.json?type=public
+    <<: *selectors
+  - id: utsugohan
+    description: "冴えない男の一人メシ"
+    title: "鬱ごはん"
+    url: https://mangacross.jp/api/comics/utsugohan.json?type=public
+    <<: *selectors
+  - id: wc2009
+    description:
+    title: 週刊少年チャンピオン9号 特別無料公開
+    url: https://mangacross.jp/api/comics/wc2009.json?type=public
+    <<: *selectors
+  - id: worst
+    description: "巨匠が描く新・最強伝説!!"
+    title: "WORST"
+    url: https://mangacross.jp/api/comics/worst.json?type=public
+    <<: *selectors
+  - id: wug
+    description: "人気アニメの新作コミカライズ"
+    title: "Wake Up,Girls！リーダーズ"
+    url: https://mangacross.jp/api/comics/wug.json?type=public
+    <<: *selectors
+  - id: yabai
+    description: "青春格差ラブコメディ！！"
+    title: "僕の心のヤバイやつ"
+    url: https://mangacross.jp/api/comics/yabai.json?type=public
+    <<: *selectors
+  - id: yomekura
+    description: "ハートフル・エンゲージコメディ!!"
+    title: "ヨメクラ"
+    url: https://mangacross.jp/api/comics/yomekura.json?type=public
+    <<: *selectors
+  - id: yorinukiurayasu
+    description: "ご存知、日本最強ギャグ!!"
+    title: "よりぬき! 浦安鉄筋家族"
+    url: https://mangacross.jp/api/comics/yorinukiurayasu.json?type=public
+    <<: *selectors
+  - id: yui
+    description: "妖美なる吸血姫浪漫、完結編"
+    title: "吸血姫夕維 最終章"
+    url: https://mangacross.jp/api/comics/yui.json?type=public
+    <<: *selectors
+  - id: yushun2020
+    description: "「優駿の門」のスピンオフ！"
+    title: "優駿の門2020馬術"
+    url: https://mangacross.jp/api/comics/yushun2020.json?type=public
+    <<: *selectors
