@@ -1,7 +1,7 @@
 selectors: &selectors
   item_selector: //episode[status[contains(text(), "public")]]
   item_description_selector: title
-  item_image_selector: ogp_url
+  item_image_selector: list_image_double_url
   item_link_selector: page_url
   item_time_selector: member_publish_start
   item_title_selector: volume
