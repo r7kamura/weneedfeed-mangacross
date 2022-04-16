@@ -6,6 +6,8 @@ selectors: &selectors
   item_time_selector: member_publish_start
   item_title_selector: volume
 
+title: マンガクロス
+
 pages:
   - id: ai
     description: "1話完結ヒューマノイド・オムニバス"
